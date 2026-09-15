@@ -1,4 +1,4 @@
-# 👋 Welcome
+#  Welcome
 
 This organization collects curated, sanitized excerpts of production and
 school projects I've built — grouped by language/stack so it's easy to browse
@@ -12,7 +12,7 @@ was left out of the public version and why.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**AnglerHub Mobile**](https://github.com/Voorbeelden/anglerhub-mobile) | Offline-first .NET MAUI companion app for a fishing competition platform — SQLite-backed sync queue, on-device OCR, server-driven permissions. | .NET MAUI, MVVM, SQLite, REST |
+| [**AnglerHub Mobile**](https://github.com/Voorbeelden/AnglerMobile) | Offline-first .NET MAUI companion app for a fishing competition platform — SQLite-backed sync queue, on-device OCR, server-driven permissions. | .NET MAUI, MVVM, SQLite, REST |
 | [**Automated Staff Scheduling Application**](https://github.com/Voorbeelden/.NetCoreApp) | ASP.NET Core MVC app for lesson/staff scheduling — database-first design, EF Core migrations, a generic CRUD/search layer shared across screens. | ASP.NET Core MVC, EF Core, SQL Server |
 
 ## PHP
