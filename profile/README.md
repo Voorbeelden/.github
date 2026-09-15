@@ -17,7 +17,10 @@ was left out of the public version and why.
 
 ## PHP
 
-*Coming soon.*
+| Project | What it is | Stack |
+|---|---|---|
+| [**AnglerHub Web**](https://github.com/Voorbeelden/AnglerHubWeb) | Laravel API layer behind the same fishing competition platform as AnglerHub Mobile — uniform response envelope, capability-based authorization, idempotent offline-sync endpoints. | Laravel, Eloquent, Sanctum, MySQL |
+
 
 ## JavaScript / TypeScript
 
