@@ -35,7 +35,12 @@ grouped by stack so it's fast to find what's relevant to you.
 
 | Project | What it is | Stack |
 |---|---|---|
+<<<<<<< HEAD
 | [**AnglerHub Web**](https://github.com/Voorbeelden/anglerhub-web) | Laravel API behind the same fishing platform as AnglerHub Mobile — uniform response envelope, capability-based auth, idempotent offline-sync. | Laravel · Eloquent · Sanctum · MySQL |
+=======
+| [**AnglerHub Web**](https://github.com/Voorbeelden/AnglerHubWeb) | Laravel API layer behind the same fishing competition platform as AnglerHub Mobile — uniform response envelope, capability-based authorization, idempotent offline-sync endpoints. | Laravel, Eloquent, Sanctum, MySQL |
+
+>>>>>>> 2605aa27565a8e1d7dc54a49d84c7ab0f0375789
 
 ### JavaScript / TypeScript
 
