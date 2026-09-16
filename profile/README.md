@@ -1,26 +1,49 @@
 <div align="center">
 
-# 👋 Hi, I'm A. Stockmans
+# 👋 Hi, I'm [Your Name]
 
-### Full-stack developer — C# / .NET, PHP / Laravel, and JavaScript
+### Full-stack developer & infrastructure owner — C# / .NET, PHP / Laravel, JavaScript
 
-Curated, sanitized excerpts of production and school projects I've built,
-grouped by stack so it's fast to find what's relevant to you.
+I build applications end to end — database design, UI/UX, backend, frontend,
+and polish — and then host and secure them myself. Below are curated,
+sanitized excerpts of real production and school projects, grouped by stack.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/antoine-stockmans)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a.stockmans@hotmail.com)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://websexpert.be)
+[![Websexpert](https://img.shields.io/badge/Websexpert-0b1230?style=for-the-badge&logo=googlechrome&logoColor=4ade80)](https://www.web-designs.eu)
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux_Hosting-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
 
 ---
+
+## 🛠️ What I actually do, end to end
+
+Most portfolios stop at "I write code." Mine doesn't, because the work
+doesn't either:
+
+| Stage | What that covers |
+|---|---|
+| **Database & data modeling** | Schema design (Oracle Data Modeler, EF Core, Eloquent migrations), from a blank page to a live, evolving production database |
+| **UI/UX & mockups** | From a first sketch/wireframe to a working design system, shared consistently across web and mobile (see [Colors.xaml](https://github.com/Voorbeelden/anglerhub-mobile/blob/main/Resources/Styles/Colors.xaml) vs. the web app's own CSS) |
+| **Backend** | ASP.NET Core MVC, Laravel/PHP, REST API design, business logic, authentication & authorization |
+| **Frontend** | Blade + Alpine.js + Tailwind, .NET MAUI/XAML, and plain hand-written HTML/CSS/JS with no framework at all |
+| **Infrastructure & hosting** | Server provisioning and hardening, domain/DNS management, SSL certificate issuance and renewal, ongoing maintenance — I don't hand this off to a hosting provider, I *am* the hosting provider for these projects |
+
+That last row is easy to skip on a developer portfolio, so it's worth
+naming directly: through **[Websexpert](https://www.web-designs.eu)**, I
+design, build, host and secure websites, webshops and small SaaS platforms
+for Belgian SMEs — end-to-end, on infrastructure I manage myself. See
+[Infrastructure & Hosting](#-infrastructure--hosting) below for specifics.
 
 ## 📂 Projects
 
@@ -28,23 +51,43 @@ grouped by stack so it's fast to find what's relevant to you.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**AnglerHub Mobile**](https://github.com/Voorbeelden/anglerhub-mobile) | Offline-first .NET MAUI app for a fishing competition platform — SQLite sync queue, on-device OCR, server-driven permissions. | .NET MAUI · MVVM · SQLite · REST |
-| [**Automated Staff Scheduling App**](https://github.com/Voorbeelden/NetCore.app.Calenderschool) | ASP.NET Core MVC app for lesson/staff scheduling — database-first design, EF Core migrations, a generic CRUD/search layer. | ASP.NET Core MVC · EF Core · SQL Server |
+| [**AnglerHub Mobile**](https://github.com/Voorbeelden/AnglerMobile) | Offline-first .NET MAUI app for a fishing competition platform — SQLite sync queue, on-device OCR, XAML UI sharing a design system with the web app. | .NET MAUI · XAML · MVVM · SQLite |
+| [**Automated Staff Scheduling App**](https://github.com/Voorbeelden/.NetCoreApp) | ASP.NET Core MVC app for lesson/staff scheduling — database-first design, EF Core migrations, a generic CRUD/search layer. | ASP.NET Core MVC · EF Core · SQL Server |
 
 ### PHP
 
 | Project | What it is | Stack |
 |---|---|---|
-<<<<<<< HEAD
-| [**AnglerHub Web**](https://github.com/Voorbeelden/anglerhub-web) | Laravel API behind the same fishing platform as AnglerHub Mobile — uniform response envelope, capability-based auth, idempotent offline-sync. | Laravel · Eloquent · Sanctum · MySQL |
-=======
-| [**AnglerHub Web**](https://github.com/Voorbeelden/AnglerHubWeb) | Laravel API layer behind the same fishing competition platform as AnglerHub Mobile — uniform response envelope, capability-based authorization, idempotent offline-sync endpoints. | Laravel, Eloquent, Sanctum, MySQL |
+| [**AnglerHub Web**](https://github.com/Voorbeelden/AnglerHubWeb) | Laravel API + Blade/Alpine.js front-end behind the same fishing platform as AnglerHub Mobile — uniform response envelope, capability-based auth, idempotent offline-sync. | Laravel · Eloquent · Sanctum · Blade · Alpine.js |
 
->>>>>>> 2605aa27565a8e1d7dc54a49d84c7ab0f0375789
+### HTML / CSS / JavaScript
 
-### JavaScript / TypeScript
+| Project | What it is | Stack |
+|---|---|---|
+| [**Web Fundamentals**](https://github.com/Voorbeelden/html-css-fundamentals) | A small, framework-free component demo — design tokens, fluid type, an accessible nav toggle, `prefers-reduced-motion` support. No build step. | HTML5 · CSS3 · vanilla JS |
 
-*Coming soon.*
+## 🌐 Infrastructure & Hosting
+
+Through **[Websexpert](https://www.web-designs.eu)**, I run a small web
+design and hosting business alongside development work — websites,
+webshops and SaaS platforms for Belgian SMEs, built *and* hosted by the
+same person, end to end:
+
+- **Server management** — provisioning, hardening and ongoing maintenance
+  of the servers client projects run on, rather than outsourcing hosting
+  to a third party.
+- **Domains & DNS** — registration, DNS configuration and renewal
+  management for client domains.
+- **SSL/TLS certificates** — issuance and automatic renewal, so every
+  client site runs on HTTPS without manual intervention.
+- **Security-minded defaults, shipped as standard** — GDPR-compliant
+  cookie/consent handling, invisible spam protection (reCAPTCHA +
+  honeypot fields, no scrapeable contact details in page source), and a
+  full audit log of every login attempt on the client-owner admin area.
+- **Shared database, website + mobile app** — client projects that need
+  both a website and a companion mobile app run on one central database,
+  not two separately-synced copies — the same architecture shown in the
+  AnglerHub Web/Mobile repositories above.
 
 ---
 
