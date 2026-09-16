@@ -34,7 +34,7 @@ doesn't either:
 | Stage | What that covers |
 |---|---|
 | **Database & data modeling** | Schema design (Oracle Data Modeler, EF Core, Eloquent migrations), from a blank page to a live, evolving production database |
-| **UI/UX & mockups** | From a first sketch/wireframe to a working design system, shared consistently across web and mobile (see [Colors.xaml](https://github.com/Voorbeelden/anglerhub-mobile/blob/main/Resources/Styles/Colors.xaml) vs. the web app's own CSS) |
+| **UI/UX & mockups** | From a first sketch/wireframe to a working design system, shared consistently across web and mobile (see [Colors.xaml](https://github.com/Voorbeelden/AnglerMobile/blob/main/Resources/Styles/Colors.xaml) vs. the web app's own CSS) |
 | **Backend** | ASP.NET Core MVC, Laravel/PHP, REST API design, business logic, authentication & authorization |
 | **Frontend** | Blade + Alpine.js + Tailwind, .NET MAUI/XAML, and plain hand-written HTML/CSS/JS with no framework at all |
 | **Infrastructure & hosting** | Server provisioning and hardening, domain/DNS management, SSL certificate issuance and renewal, ongoing maintenance — I don't hand this off to a hosting provider, I *am* the hosting provider for these projects |
@@ -64,7 +64,7 @@ for Belgian SMEs — end-to-end, on infrastructure I manage myself. See
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Web Fundamentals**](https://github.com/Voorbeelden/html-css-fundamentals) | A small, framework-free component demo — design tokens, fluid type, an accessible nav toggle, `prefers-reduced-motion` support. No build step. | HTML5 · CSS3 · vanilla JS |
+| [**Web Fundamentals**](https://github.com/Voorbeelden/htmlCSS) | A small, framework-free component demo — design tokens, fluid type, an accessible nav toggle, `prefers-reduced-motion` support. No build step. | HTML5 · CSS3 · vanilla JS |
 
 ## 🌐 Infrastructure & Hosting
 
