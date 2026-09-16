@@ -58,8 +58,8 @@ for Belgian SMEs — end-to-end, on infrastructure I manage myself. See
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**AnglerHub API**](https://github.com/Voorbeelden/AnglerHubApi) | The Laravel REST API behind AnglerHub Mobile — Sanctum auth, capability-based authorization, idempotent offline-sync endpoints. | Laravel · Eloquent · Sanctum |
-| [**AnglerHub Web**](https://github.com/Voorbeelden/AnglerHubWeb) | The traditional, session-based Laravel/Blade side of the same app — screenshots included. Account security self-service, Form Requests, a reusable Alpine.js/Tailwind component layer. | Laravel · Blade · Alpine.js · Tailwind |
+| [**AnglerHub API**](https://github.com/Voorbeelden/AnglerApi) | The Laravel REST API behind AnglerHub Mobile — Sanctum auth, capability-based authorization, idempotent offline-sync endpoints. | Laravel · Eloquent · Sanctum |
+| [**AnglerHub Web**](https://github.com/Voorbeelden/AnglerWeb) | The traditional, session-based Laravel/Blade side of the same app — screenshots included. Account security self-service, Form Requests, a reusable Alpine.js/Tailwind component layer. | Laravel · Blade · Alpine.js · Tailwind |
 
 ### HTML / CSS / JavaScript
 
@@ -67,9 +67,9 @@ for Belgian SMEs — end-to-end, on infrastructure I manage myself. See
 |---|---|---|
 | [**Web Fundamentals**](https://github.com/Voorbeelden/htmlCSS) | A small, framework-free component demo — design tokens, fluid type, an accessible nav toggle, `prefers-reduced-motion` support. No build step. | HTML5 · CSS3 · vanilla JS |
 
-**A look at the web version** ([full screenshot set →](https://github.com/Voorbeelden/AnglerHubWeb#screenshots)):
+**A look at the web version** ([full screenshot set →](https://github.com/Voorbeelden/AnglerWeb#screenshots)):
 
-<img src="https://raw.githubusercontent.com/Voorbeelden/AnglerHubWeb/main/docs/screenshots/homepage.png" width="600" alt="AnglerHub marketing homepage">
+<img src="https://raw.githubusercontent.com/Voorbeelden/AnglerWeb/main/docs/screenshots/homepage.png" width="600" alt="AnglerHub marketing homepage">
 
 ## 🌐 Infrastructure & Hosting
 
