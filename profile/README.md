@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm [Your Name]
+# 👋 Hi, I'm A Stockmans
 
 ### Full-stack developer & infrastructure owner — C# / .NET, PHP / Laravel, JavaScript
 
