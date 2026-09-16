@@ -34,7 +34,7 @@ doesn't either:
 | Stage | What that covers |
 |---|---|
 | **Database & data modeling** | Schema design (Oracle Data Modeler, EF Core, Eloquent migrations), from a blank page to a live, evolving production database |
-| **UI/UX & mockups** | From a first sketch/wireframe to a working design system, shared consistently across web and mobile (see [Colors.xaml](https://github.com/Voorbeelden/anglerhub-mobile/blob/main/Resources/Styles/Colors.xaml) vs. the web app's own CSS) |
+| **UI/UX & mockups** | From a first sketch/wireframe to a working design system, shared consistently across web and mobile (see [Colors.xaml](https://github.com/Voorbeelden/AnglerMobile/blob/main/Resources/Styles/Colors.xaml) vs. the web version's own CSS) |
 | **Backend** | ASP.NET Core MVC, Laravel/PHP, REST API design, business logic, authentication & authorization |
 | **Frontend** | Blade + Alpine.js + Tailwind, .NET MAUI/XAML, and plain hand-written HTML/CSS/JS with no framework at all |
 | **Infrastructure & hosting** | Server provisioning and hardening, domain/DNS management, SSL certificate issuance and renewal, ongoing maintenance — I don't hand this off to a hosting provider, I *am* the hosting provider for these projects |
@@ -51,20 +51,25 @@ for Belgian SMEs — end-to-end, on infrastructure I manage myself. See
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**AnglerHub Mobile**](https://github.com/Voorbeelden/AnglerMobile) | Offline-first .NET MAUI app for a fishing competition platform — SQLite sync queue, on-device OCR, XAML UI sharing a design system with the web app. | .NET MAUI · XAML · MVVM · SQLite |
+| [**AnglerHub Mobile**](https://github.com/Voorbeelden/AnglerMobile) | Offline-first .NET MAUI app for a fishing competition platform — SQLite sync queue, on-device OCR, XAML UI sharing a design system with the web version. | .NET MAUI · XAML · MVVM · SQLite |
 | [**Automated Staff Scheduling App**](https://github.com/Voorbeelden/.NetCoreApp) | ASP.NET Core MVC app for lesson/staff scheduling — database-first design, EF Core migrations, a generic CRUD/search layer. | ASP.NET Core MVC · EF Core · SQL Server |
 
 ### PHP
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**AnglerHub Web**](https://github.com/Voorbeelden/AnglerHubWeb) | Laravel API + Blade/Alpine.js front-end behind the same fishing platform as AnglerHub Mobile — uniform response envelope, capability-based auth, idempotent offline-sync. | Laravel · Eloquent · Sanctum · Blade · Alpine.js |
+| [**AnglerHub API**](https://github.com/Voorbeelden/AnglerHubApi) | The Laravel REST API behind AnglerHub Mobile — Sanctum auth, capability-based authorization, idempotent offline-sync endpoints. | Laravel · Eloquent · Sanctum |
+| [**AnglerHub Web**](https://github.com/Voorbeelden/AnglerHubWeb) | The traditional, session-based Laravel/Blade side of the same app — screenshots included. Account security self-service, Form Requests, a reusable Alpine.js/Tailwind component layer. | Laravel · Blade · Alpine.js · Tailwind |
 
 ### HTML / CSS / JavaScript
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Web Fundamentals**](https://github.com/Voorbeelden/html-css-fundamentals) | A small, framework-free component demo — design tokens, fluid type, an accessible nav toggle, `prefers-reduced-motion` support. No build step. | HTML5 · CSS3 · vanilla JS |
+| [**Web Fundamentals**](https://github.com/Voorbeelden/htmlCSS) | A small, framework-free component demo — design tokens, fluid type, an accessible nav toggle, `prefers-reduced-motion` support. No build step. | HTML5 · CSS3 · vanilla JS |
+
+**A look at the web version** ([full screenshot set →](https://github.com/Voorbeelden/AnglerHubWeb#screenshots)):
+
+<img src="https://raw.githubusercontent.com/Voorbeelden/AnglerHubWeb/main/docs/screenshots/homepage.png" width="600" alt="AnglerHub marketing homepage">
 
 ## 🌐 Infrastructure & Hosting
 
@@ -87,7 +92,7 @@ same person, end to end:
 - **Shared database, website + mobile app** — client projects that need
   both a website and a companion mobile app run on one central database,
   not two separately-synced copies — the same architecture shown in the
-  AnglerHub Web/Mobile repositories above.
+  AnglerHub repositories above.
 
 ---
 
