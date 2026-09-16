@@ -34,11 +34,7 @@ doesn't either:
 | Stage | What that covers |
 |---|---|
 | **Database & data modeling** | Schema design (Oracle Data Modeler, EF Core, Eloquent migrations), from a blank page to a live, evolving production database |
-<<<<<<< HEAD
 | **UI/UX & mockups** | From a first sketch/wireframe to a working design system, shared consistently across web and mobile (see [Colors.xaml](https://github.com/Voorbeelden/AnglerMobile/blob/main/Resources/Styles/Colors.xaml) vs. the web version's own CSS) |
-=======
-| **UI/UX & mockups** | From a first sketch/wireframe to a working design system, shared consistently across web and mobile (see [Colors.xaml](https://github.com/Voorbeelden/AnglerMobile/blob/main/Resources/Styles/Colors.xaml) vs. the web app's own CSS) |
->>>>>>> 8be24176254889113e31987eb065d53cad60a7ee
 | **Backend** | ASP.NET Core MVC, Laravel/PHP, REST API design, business logic, authentication & authorization |
 | **Frontend** | Blade + Alpine.js + Tailwind, .NET MAUI/XAML, and plain hand-written HTML/CSS/JS with no framework at all |
 | **Infrastructure & hosting** | Server provisioning and hardening, domain/DNS management, SSL certificate issuance and renewal, ongoing maintenance — I don't hand this off to a hosting provider, I *am* the hosting provider for these projects |
@@ -70,13 +66,10 @@ for Belgian SMEs — end-to-end, on infrastructure I manage myself. See
 | Project | What it is | Stack |
 |---|---|---|
 | [**Web Fundamentals**](https://github.com/Voorbeelden/htmlCSS) | A small, framework-free component demo — design tokens, fluid type, an accessible nav toggle, `prefers-reduced-motion` support. No build step. | HTML5 · CSS3 · vanilla JS |
-<<<<<<< HEAD
 
 **A look at the web version** ([full screenshot set →](https://github.com/Voorbeelden/AnglerHubWeb#screenshots)):
 
 <img src="https://raw.githubusercontent.com/Voorbeelden/AnglerHubWeb/main/docs/screenshots/homepage.png" width="600" alt="AnglerHub marketing homepage">
-=======
->>>>>>> 8be24176254889113e31987eb065d53cad60a7ee
 
 ## 🌐 Infrastructure & Hosting
 
