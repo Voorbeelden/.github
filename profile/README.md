@@ -67,7 +67,7 @@ for Belgian SMEs — end-to-end, on infrastructure I manage myself. See
 |---|---|---|
 | [**Web Fundamentals**](https://github.com/Voorbeelden/htmlCSS) | A small, framework-free component demo — design tokens, fluid type, an accessible nav toggle, `prefers-reduced-motion` support. No build step. | HTML5 · CSS3 · vanilla JS |
 
-**A look at the web version** ([full screenshot set →](https://github.com/Voorbeelden/AnglerWeb#screenshots)):
+**A look at AnglerHub Web** ([full screenshot set →](https://github.com/Voorbeelden/AnglerWeb#screenshots)):
 
 <img src="https://raw.githubusercontent.com/Voorbeelden/AnglerWeb/main/docs/screenshots/homepage.png" width="600" alt="AnglerHub marketing homepage">
 
@@ -77,6 +77,8 @@ Through **[Websexpert](https://www.web-designs.eu)**, I run a small web
 design and hosting business alongside development work — websites,
 webshops and SaaS platforms for Belgian SMEs, built *and* hosted by the
 same person, end to end:
+
+<img src="https://raw.githubusercontent.com/Voorbeelden/.github/main/profile/images/websexpert-homepage.png" width="600" alt="Websexpert homepage"> <img src="https://raw.githubusercontent.com/Voorbeelden/.github/main/profile/images/websexpert-services.png" width="600" alt="Websexpert services overview">
 
 - **Server management** — provisioning, hardening and ongoing maintenance
   of the servers client projects run on, rather than outsourcing hosting
